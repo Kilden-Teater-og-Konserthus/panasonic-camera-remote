@@ -1,0 +1,52 @@
+iframe{
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 10000px;
+    margin: 0;
+    display: flex;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: azure;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.title {
+    /* min-width: 450px; */
+}
+
+iframe.camSettings {
+    height: 100%;
+    /* flex: 1; */
+    /* min-width: 200px; */
+}
+
+.iframeContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px;
+    border: white;
+    border-style: groove;
+    box-sizing: border-box;
+}
+
+.marginContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+}
+
+iframe.irisSettings {
+}
